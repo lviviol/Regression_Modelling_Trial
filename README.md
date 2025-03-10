@@ -45,8 +45,9 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
   1. OOB = 13.2% & R-Square = -0.026
   2. This means the model accurately predicts prices only 13.2% of the time.  This is somewhat an undesirable result.
   3. Negative correlation shows the model is performing worse than a simple mean predictions.  This is undesirable.
-  4. Removing outlier points resulted in poorer OOB = 1.6% & R-Square = -0.023, signifying that outlier points plays an unignorable role in the overall resale housing prices.
-  5. This is reasonable because other parameters, such floor size, etc has some effect on resale prices.  We will next investigate into.
+  4. Excluding outliers resulted in poorer OOB = 1.6% & R-Square = -0.023, signifying that outlier points plays an unignorable role in the overall resale housing prices.
+  5. This is reasonable since there is significantly large variation in housing price within the time series, plus other unstudied variables that have potential effect on resale prices.
+  6. At this point, the modelling results shows that time horizon is not the only factor affecting housing prices.
 
 <a href="https://lviviol.github.io/Regression_Modelling_Trial/Regression1stTrial.html" target="_blank">Regression Modelling Chart (Click this link to View Interactive Chart)</a>
 
@@ -88,8 +89,8 @@ Regression Modelling Chart (Click this link to View Interactive Chart)</a>
 
 * We plan to check correlation between Boxplot Actual Median Price & Predicted Price.  Our Hypothesis is, if the correlation is positive, perhaps one idea is to select a regression model that models median instead of mean. (Done: See Observation D)
 * We plan to compare model output with full dataset and dataset without outliers.  Purpose is to investigate outlier effect on OOB and R Square.  We also note that the disadvantage of removing outlier is it's impact on summary and distribution of the aggregate data, resulting in a biased output.  (Done: See Results & Visualization)
-* We plan to research on other regression models that are more robust at modelling dataset with higher outliers.  (Huber?  Others?)
 * We plan to include more variables into the modelling.
+* We plan to research on other regression models that are more robust at modelling dataset with higher outliers.  (Huber?  Others?)
 * We continue to use OOB > 80% and R-Square > 0.8 as guiding criteria for verifying the model's predicted prices.
 </details>
 
