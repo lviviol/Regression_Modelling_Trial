@@ -46,7 +46,7 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
   2. This means the model accurately predicts prices only 13.2% of the time.  This is somewhat an undesirable result.
   3. Negative correlation shows the model is performing worse than a simple mean predictions.  This is undesirable.
   4. Excluding outliers resulted in poorer OOB = 1.6% & R-Square = -0.023, signifying that outlier points plays an unignorable role in the overall resale housing prices.
-  5. This is reasonable since there is significantly large variation in housing price within the time series, plus other unstudied variables that have potential effect on resale prices.
+  5. This is reasonable since there is significantly large variation ($0.2M ~ $0.9M) in housing price within the time series, plus other unstudied variables that have potential effect on resale prices.
   6. At this point, the modelling results shows that time horizon is not the only factor affecting housing prices.
 
 <a href="https://lviviol.github.io/Regression_Modelling_Trial/Regression1stTrial.html" target="_blank">Regression Modelling Chart (Click this link to View Interactive Chart)</a>
