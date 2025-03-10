@@ -51,7 +51,7 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
 <a href="https://lviviol.github.io/Regression_Modelling_Trial/Regression1stTrial.html" target="_blank">Regression Modelling Chart (Click this link to View Interactive Chart)</a>
 
 <img src="https://github.com/lviviol/Regression_Modelling_Trial/blob/main/RandomForestRegression_Trial1.png?raw=true" width="800">
-<img src="https://github.com/lviviol/Regression_Modelling_Trial/blob/main/No_Outlier_Model.png?raw=true" width="400">
+<img src="https://github.com/lviviol/Regression_Modelling_Trial/blob/main/No_Outlier_Model.png?raw=true" width="800">
 
 
 ### Observations A
